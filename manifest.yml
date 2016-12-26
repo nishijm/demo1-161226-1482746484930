@@ -1,0 +1,12 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: demo1-161226
+  host: demo1-161226
+  disk_quota: 1024M
+  services:
+  - Monitoring and Analytics-73
+  - demo1-161226-cloudantNoSQLDB
+  - New Relic-2g
